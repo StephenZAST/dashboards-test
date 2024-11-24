@@ -1,6 +1,6 @@
 import React from 'react';
 import { TableRowProps } from '../types';
-import styles from './CustomerTable.module.css';
+import styles from './style/CustomerTable.module.css';
 
 const tableData: TableRowProps[] = [
   {
