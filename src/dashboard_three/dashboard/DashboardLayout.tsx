@@ -3,7 +3,7 @@ import { Sidebar } from '../Sidebar/Sidebar';
 import { DashboardProvider } from './DashboardContext';
 import { DashboardLayoutProps } from './types';
 import styles from './DashboardLayout.module.css';
-import { MobileMenuButton } from '../sidebar/MobileMenuButton.module.css';
+import { MobileMenuButton } from '../Sidebar/MobileMenuButton';
 import { ThemeToggle } from './ThemeToggle';
 import { dashboardConfigs } from './dashboardConfigs';
 
@@ -16,7 +16,9 @@ export const DashboardLayout: React.FC<DashboardLayoutProps> = ({
   return (
     <DashboardProvider initialAdminType={adminType}>
       <div className={styles.dashboardLayout}>
-        <MobileMenuButton />
+        <MobileMenuButton isOpen={false} onClick={function (): void {
+          throw new Error('Function not implemented.');
+        } } />
         <Sidebar 
           items={config.sidebarItems}
           logo="/assets/logo.svg"
