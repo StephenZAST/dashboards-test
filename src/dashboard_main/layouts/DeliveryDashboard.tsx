@@ -4,7 +4,7 @@ import { DeliveryList } from '../components/DeliveryList';
 import { NavigationMap } from '../components/NavigationMap';
 import { CustomerContact } from '../components/CustomerContact';
 import { DeliveryReports } from '../components/DeliveryReports';
-import styles from './DeliveryDashboard.module.css';
+import styles from './style/DeliveryDashboard.module.css';
 
 export const DeliveryDashboard: React.FC = () => {
   const [selectedView, setSelectedView] = useState('deliveries');

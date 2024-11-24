@@ -4,7 +4,7 @@ import { TeamPerformance } from '../components/TeamPerformance';
 import { TeamManagement } from '../components/TeamManagement';
 import { SupervisorReports } from '../components/SupervisorReports';
 import { SupervisorConfig } from '../components/SupervisorConfig';
-import styles from './SupervisorDashboard.module.css';
+import styles from './style/SupervisorDashboard.module.css';
 
 export const SupervisorDashboard: React.FC = () => {
   const [selectedView, setSelectedView] = useState('performance');

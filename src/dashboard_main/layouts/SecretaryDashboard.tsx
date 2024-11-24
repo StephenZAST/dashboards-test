@@ -5,7 +5,7 @@ import { OrderManagement } from '../components/OrderManagement';
 import { ClientManagement } from '../components/ClientManagement';
 import { InvoiceManagement } from '../components/InvoiceManagement';
 import { Schedule } from '../components/Schedule';
-import styles from './SecretaryDashboard.module.css';
+import styles from './style/SecretaryDashboard.module.css';
 
 export const SecretaryDashboard: React.FC = () => {
   const [selectedView, setSelectedView] = useState('daily');

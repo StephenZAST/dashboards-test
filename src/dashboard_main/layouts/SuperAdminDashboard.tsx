@@ -5,7 +5,7 @@ import { OrdersManagement } from '../components/OrdersManagement';
 import { CustomerManagement } from '../components/CustomerManagement';
 import { ReportsView } from '../components/ReportsView';
 import { Settings } from '../components/Settings';
-import styles from './SuperAdminDashboard.module.css';
+import styles from './style/SuperAdminDashboard.module.css';
 
 export const SuperAdminDashboard: React.FC = () => {
   const [selectedView, setSelectedView] = useState('dashboard');

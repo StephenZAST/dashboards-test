@@ -5,7 +5,7 @@ import { CompanyMetrics } from '../components/CompanyMetrics';
 import { SystemAlerts } from '../components/SystemAlerts';
 import { DashboardLayout } from './DashboardLayout';
 import { AdminActivityLog } from '../components/AdminActivityLog';
-import styles from './MasterSuperAdminDashboard.module.css';
+import styles from './style/MasterSuperAdminDashboard.module.css';
 
 export const MasterSuperAdminDashboard: React.FC = () => {
   const [selectedView, setSelectedView] = useState('overview');
