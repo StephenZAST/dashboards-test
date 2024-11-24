@@ -1,0 +1,32 @@
+.dashboardLayout {
+    display: flex;
+    min-height: 100vh;
+    background-color: var(--theme-background-color);
+    color: var(--theme-text-color);
+  }
+  
+  .mainContent {
+    flex: 1;
+    margin-left: 231px;
+    transition: margin-left 0.3s ease;
+  }
+  
+  .header {
+    height: 64px;
+    padding: 0 24px;
+    display: flex;
+    align-items: center;
+    justify-content: flex-end;
+    background-color: var(--white);
+    border-bottom: 1px solid var(--gray-200);
+  }
+  
+  .content {
+    padding: 24px;
+  }
+  
+  @media (max-width: 640px) {
+    .mainContent {
+      margin-left: 0;
+    }
+  }
