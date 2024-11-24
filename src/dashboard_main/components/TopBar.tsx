@@ -1,6 +1,6 @@
 import React from 'react';
 import { SearchBar } from './SearchBar';
-import styles from './TopBar.module.css';
+import styles from './style/TopBar.module.css';
 
 interface TopBarProps {
   onMenuClick: () => void;

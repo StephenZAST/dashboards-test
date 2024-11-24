@@ -1,6 +1,6 @@
 import React from 'react';
 import { SidebarItemProps } from '../types';
-import styles from './SidebarItem.module.css';
+import styles from './style/SidebarItem.module.css';
 
 export const SidebarItem: React.FC<SidebarItemProps> = ({
   icon,
